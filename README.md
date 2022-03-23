@@ -1,4 +1,4 @@
-# bluecolab.github.io
+# Blue Colab
 GitHub Pages wiki with details about Blue Colab resources
 
 ### Blue Colab Resources
