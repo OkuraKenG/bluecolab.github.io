@@ -1,3 +1,5 @@
+### Glossary of Terms
+
 **Buoy** – A floating object that can be anchored in position. Buoys can support hardware.
 
 **Data Logger** - Also known as Measurement and Control System or Micrologger. Data loggers are the brain of a data acquisition system. They make measurements at a specified scan rate, process data, and initiate telecommunications. (Campbell Scientific)
