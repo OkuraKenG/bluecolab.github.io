@@ -31,8 +31,9 @@
 
 <details><summary>References</summary>
 <p>
-Campbell Scientific. (n.d.). Glossary: Words that are commonly used by Campbell Scientific. Retrieved from Campbell Scientific: [https://www.campbellsci.com/glossary](https://www.campbellsci.com/glossary)
+Campbell Scientific. (n.d.). Glossary: Words that are commonly used by Campbell Scientific. Retrieved from Campbell Scientific: <a href="https://www.campbellsci.com/glossary" target="_blank">https://www.campbellsci.com/glossary</a>
 
-Dictionary, O. E. (n.d.). Retrieved from Oxford English Dictionary: [https://www.oed.com](https://www.oed.com)
+
+Dictionary, O. E. (n.d.). Retrieved from Oxford English Dictionary: <a href="https://www.oed.com" target="_blank">https://www.oed.com</a>
 </p>
 </details>
