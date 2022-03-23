@@ -28,8 +28,11 @@
 
 **Station** – A named data collection unit at fixed location. Stations can be commissioned and decommissioned.
 
-    References:
 
-    Campbell Scientific. (n.d.). Glossary: Words that are commonly used by Campbell Scientific. Retrieved from Campbell Scientific: https://www.campbellsci.com/glossary
+<details><summary>References</summary>
+<p>
+Campbell Scientific. (n.d.). Glossary: Words that are commonly used by Campbell Scientific. Retrieved from Campbell Scientific: [https://www.campbellsci.com/glossary](https://www.campbellsci.com/glossary)
 
-    Dictionary, O. E. (n.d.). Retrieved from Oxford English Dictionary: https://www.oed.com
+Dictionary, O. E. (n.d.). Retrieved from Oxford English Dictionary: [https://www.oed.com](https://www.oed.com)
+</p>
+</details>
