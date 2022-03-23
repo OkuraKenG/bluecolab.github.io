@@ -1,4 +1,4 @@
-# Blue Colab
+# [Blue Colab](readme.md)
 GitHub Pages wiki with details about Blue Colab resources
 
 ### Blue Colab Resources
