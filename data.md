@@ -26,7 +26,7 @@ HomeLab - <a href="https://colabprod01.pace.edu/api/v1/download/8/0/0">https://c
 <a href="https://colabprod01.pace.edu/api/v1/pods/">https://colabprod01.pace.edu/api/v1/pods/</a>
 
 **Deployments** - All listed deployments (periods of time stations collect data)<br>
-<a href="https://colabprod01.pace.edu/api/v1/pods/">https://colabprod01.pace.edu/api/v1/pods/</a>
+<a href="https://colabprod01.pace.edu/api/v1/pods/">https://colabprod01.pace.edu/api/v1/deps/</a>
 
 **Active Deployments** - Deployments currently on and collecting data<br>
 <a href="https://colabprod01.pace.edu/api/v1/activeDeps/">https://colabprod01.pace.edu/api/v1/activeDeps/</a>
