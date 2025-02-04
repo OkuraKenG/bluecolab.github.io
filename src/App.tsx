@@ -1,47 +1,60 @@
 import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
-import Slider from '@mui/material/Slider';
-import PopoverMenu from './PopoverMenu';
-import ProTip from './ProTip';
-
-function Copyright() {
-  return (
-    <Typography
-      variant="body2"
-      align="center"
-      sx={{
-        color: 'text.secondary',
-      }}
-    >
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+import HomeBody from './components/HomeBody';
+import DataAccess from './components/DataAccess';
+import Glossary from './components/Glossary';
+import { useState, useEffect } from 'react';
 
 export default function App() {
-  return (
-    <Container maxWidth="sm">
-      <div className="my-4">
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Material UI Create React App example with Tailwind CSS in TypeScript
-        </Typography>
-        <Slider
-          className="my-4"
-          defaultValue={30}
-          classes={{ active: 'shadow-none' }}
-          slotProps={{ thumb: { className: 'hover:shadow-none' } }}
-        />
-        <PopoverMenu />
-        <ProTip />
-        <Copyright />
-      </div>
-    </Container>
-  );
+	const [currentPage, setCurrentPage] = useState<"glossary" | "dataAccess" | "home">("home");
+
+	const renderPage = () => {
+		switch (currentPage) {
+			case "home":
+				return <HomeBody />;
+			case "dataAccess":
+				return <DataAccess />;
+			case "glossary":
+				return <Glossary />;
+			default:
+				return <HomeBody />;
+		}
+	};
+
+	useEffect(() => {
+		const handleHashChange = () => {
+			// Get the hash value and remove the '#' part
+			const hash = window.location.hash.substring(1); // Remove the '#' from the hash
+			switch (hash) {
+				case "home":
+					setCurrentPage('home');
+					break;
+				case "dataAccess":
+					setCurrentPage('dataAccess');
+					break;
+				case "glossary":
+					setCurrentPage('glossary');
+					break;
+				default:
+					setCurrentPage('home');
+			}
+		};
+
+		// Listen to changes in the URL hash
+		window.addEventListener("hashchange", handleHashChange);
+
+		// Handle the initial hash on page load
+		handleHashChange();
+
+		return () => {
+			window.removeEventListener("hashchange", handleHashChange);
+		};
+	}, []);
+
+	return (
+		<div>
+			{
+				renderPage()
+			}
+		</div>
+	);
 }
