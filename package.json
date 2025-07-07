@@ -2,7 +2,7 @@
 	"name": "bluecolab.github.io",
 	"version": "5.0.0",
 	"private": true,
-	"homepage": "https://okaykenji.github.io/bluecolab.github.io",
+	"homepage": "https://okurakeng.github.io/bluecolab.github.io",
 	"dependencies": {
 		"@emotion/react": "^11.14.0",
 		"@emotion/styled": "^11.14.0",
